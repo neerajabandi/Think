@@ -11,3 +11,82 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main-container{
+  width: 380px;
+    border-radius: 5px;
+  margin: auto;
+  border: 1px solid rgb(112, 108, 108);
+  font-size: 16px;
+  text-align: center;
+  color:rgb(51, 48, 48);
+}
+
+.header{
+  background: rgb(80, 77, 77);
+    margin-top: 0px;
+    color: #fff;
+}
+.header-inner{
+  display: inline-flex;
+    align-items: center;
+}
+
+.dropdown-container{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.dropdown{
+  margin-top: 5px;
+  height: 40px;
+  width: 300px;
+  text-align: left;
+  font-size: inherit;
+}
+.helperText{
+  margin-top: 5px;
+  font-size: 12px;
+}
+.radio-btn-group{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.label{
+  margin-bottom: 5px;
+}
+.radio-group{
+  display: grid;
+    margin: auto;
+    width: fit-content;
+}
+.radioBtn{
+  float: left;
+  display: flex;
+  margin-top: 5px;
+}
+.radioInput{
+  height: 15px;
+  width: 15px;
+}
+.input-group{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.input{
+  height: 40px;
+  width: 100px;
+  margin: auto;
+  font-size: 20px;
+  text-align: center;
+}
+.footer{
+  margin-top: 10px;
+  background: rgb(80, 77, 77);
+    color: #fff;
+    padding: 19px;
+    font-weight: bolder;
+    align-items: center;
+}
+.fare-cost{
+  font-size: 42px;
+}
